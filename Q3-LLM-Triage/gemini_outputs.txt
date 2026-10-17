@@ -1,0 +1,95 @@
+Q3 – GOOGLE GEMINI EXPERIMENT OUTPUTS
+
+Model:
+Google Gemini – Gemini Auto mode
+
+The same revised triage prompt was used for all three test messages.
+
+
+============================================================
+TEST 1 – WATER LEAK
+============================================================
+
+Input message:
+
+There is a water leak in Building C that has been running all morning.
+
+Gemini output:
+
+{
+  "issue_category": "FACILITIES",
+  "urgency": "HIGH",
+  "sentiment": "NEGATIVE",
+  "followup_required": "Y",
+  "recommended_team": "Facilities",
+  "escalation_reason": "Ongoing water leak in Building C requires prompt operational attention to reduce water waste and the risk of property damage.",
+  "data_sensitivity_risk": "Low",
+  "brief_summary": "Active water leak reported in Building C that has been running all morning."
+}
+
+Evaluation:
+
+The model correctly identified the water leak as a facilities issue. HIGH urgency was reasonable because the problem had continued for several hours and could cause water waste or physical damage. The Facilities team was an appropriate routing decision.
+
+
+============================================================
+TEST 2 – BLOCKED ACCESSIBLE ENTRANCE
+============================================================
+
+Input message:
+
+The accessible entrance near the main building has been blocked for two days.
+
+Gemini output:
+
+{
+  "issue_category": "ACCESSIBILITY",
+  "urgency": "HIGH",
+  "sentiment": "NEGATIVE",
+  "followup_required": "Y",
+  "recommended_team": "Accessibility and Inclusion",
+  "escalation_reason": "The main building accessible entrance has been blocked for two days, creating an accessibility barrier that requires prompt attention.",
+  "data_sensitivity_risk": "Low",
+  "brief_summary": "Accessible entrance near the main building has been blocked for two days."
+}
+
+Evaluation:
+
+The model correctly classified the message as an accessibility issue and identified that follow-up was required. HIGH urgency was appropriate because the blocked entrance could prevent people with mobility requirements from accessing the building.
+
+
+============================================================
+TEST 3 – SUPPLIER SUSTAINABILITY CONCERN
+============================================================
+
+Input message:
+
+I want to report that one of our suppliers may not meet our sustainability policy.
+
+Gemini output:
+
+{
+  "issue_category": "PROCUREMENT",
+  "urgency": "MEDIUM",
+  "sentiment": "NEUTRAL",
+  "followup_required": "Y",
+  "recommended_team": "Procurement",
+  "escalation_reason": "Possible non-compliance of a supplier with the sustainability policy requires review and follow-up.",
+  "data_sensitivity_risk": "Low",
+  "brief_summary": "Employee reports a potential supplier non-compliance issue relating to the organisation's sustainability policy."
+}
+
+Evaluation:
+
+The model correctly recognised the message as a procurement issue. MEDIUM urgency was reasonable because the message described possible non-compliance rather than an immediate safety or operational emergency. Procurement was the most appropriate team for initial investigation.
+
+
+============================================================
+OVERALL OBSERVATION
+============================================================
+
+Gemini produced valid structured outputs for all three messages and maintained the requested ESG categories and urgency scale. The model correctly identified the relevant organisational team in each case.
+
+The model was also able to provide short contextual escalation reasons rather than relying only on keywords. This demonstrates an advantage over a basic rule-based classifier.
+
+However, the results still require human oversight. Urgency and escalation decisions involve organisational judgement, and a production system should not rely on the LLM alone for high-risk cases.

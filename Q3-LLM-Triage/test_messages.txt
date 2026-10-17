@@ -1,0 +1,29 @@
+Q3 – ESG MESSAGE TRIAGE TEST MESSAGES
+
+Three realistic ESG-related operational messages were used to evaluate Google Gemini.
+
+TEST MESSAGE 1 – FACILITIES / WATER LEAK
+
+There is a water leak in Building C that has been running all morning.
+
+Purpose:
+To test whether the model identifies an ongoing facilities and environmental issue, assigns an appropriate urgency level and directs the message to the Facilities team.
+
+
+TEST MESSAGE 2 – ACCESSIBILITY
+
+The accessible entrance near the main building has been blocked for two days.
+
+Purpose:
+To evaluate whether the model recognises an accessibility issue and understands that a blocked accessible entrance requires prompt organisational follow-up.
+
+
+TEST MESSAGE 3 – PROCUREMENT / SUSTAINABILITY
+
+I want to report that one of our suppliers may not meet our sustainability policy.
+
+Purpose:
+To test whether the model recognises a supplier-related sustainability concern, classifies it as a procurement issue and recommends appropriate follow-up.
+
+
+All three messages were submitted using the same revised ESG message-triage prompt so that the results could be compared consistently.

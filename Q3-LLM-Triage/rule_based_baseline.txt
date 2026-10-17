@@ -1,0 +1,98 @@
+Q3 – RULE-BASED ESG MESSAGE TRIAGE BASELINE
+
+Purpose:
+
+A simple rule-based classifier was created as a baseline for comparison with Google Gemini.
+
+The baseline uses fixed keywords to assign an issue category, urgency level, follow-up requirement and recommended team.
+
+
+RULE 1 – FACILITIES / WATER LEAK
+
+IF the message contains:
+
+"water leak"
+OR
+"leak"
+
+THEN:
+
+issue_category = FACILITIES
+urgency = HIGH
+followup_required = Y
+recommended_team = Facilities
+
+
+RULE 2 – ACCESSIBILITY
+
+IF the message contains:
+
+"accessible"
+OR
+"accessible entrance"
+OR
+"blocked entrance"
+
+THEN:
+
+issue_category = ACCESSIBILITY
+urgency = HIGH
+followup_required = Y
+recommended_team = Accessibility and Inclusion
+
+
+RULE 3 – PROCUREMENT
+
+IF the message contains:
+
+"supplier"
+AND
+"sustainability"
+
+THEN:
+
+issue_category = PROCUREMENT
+urgency = MEDIUM
+followup_required = Y
+recommended_team = Procurement
+
+
+BASELINE TEST RESULTS
+
+Test Message 1:
+There is a water leak in Building C that has been running all morning.
+
+Result:
+Category = FACILITIES
+Urgency = HIGH
+Follow-up = Y
+Recommended Team = Facilities
+
+
+Test Message 2:
+The accessible entrance near the main building has been blocked for two days.
+
+Result:
+Category = ACCESSIBILITY
+Urgency = HIGH
+Follow-up = Y
+Recommended Team = Accessibility and Inclusion
+
+
+Test Message 3:
+I want to report that one of our suppliers may not meet our sustainability policy.
+
+Result:
+Category = PROCUREMENT
+Urgency = MEDIUM
+Follow-up = Y
+Recommended Team = Procurement
+
+
+BASELINE LIMITATIONS
+
+The rule-based approach is predictable and easy to explain because the same keywords always produce the same result.
+
+However, it has limited ability to understand context. Messages that use different wording may not match the predefined rules. It may therefore fail when employees describe the same issue using synonyms, indirect language or more complicated descriptions.
+
+The rule-based system also cannot provide the same level of contextual explanation as an LLM without adding many additional rules.
