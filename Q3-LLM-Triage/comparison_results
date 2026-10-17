@@ -1,0 +1,63 @@
+Q3 – GEMINI AND RULE-BASED BASELINE COMPARISON
+
+The Google Gemini outputs were compared with the simple rule-based baseline.
+
+RESULT 1 – WATER LEAK
+
+Gemini:
+Category = FACILITIES
+Urgency = HIGH
+Team = Facilities
+
+Rule-Based:
+Category = FACILITIES
+Urgency = HIGH
+Team = Facilities
+
+Comparison:
+Agreement
+
+
+RESULT 2 – ACCESSIBILITY ISSUE
+
+Gemini:
+Category = ACCESSIBILITY
+Urgency = HIGH
+Team = Accessibility and Inclusion
+
+Rule-Based:
+Category = ACCESSIBILITY
+Urgency = HIGH
+Team = Accessibility and Inclusion
+
+Comparison:
+Agreement
+
+
+RESULT 3 – SUPPLIER SUSTAINABILITY ISSUE
+
+Gemini:
+Category = PROCUREMENT
+Urgency = MEDIUM
+Team = Procurement
+
+Rule-Based:
+Category = PROCUREMENT
+Urgency = MEDIUM
+Team = Procurement
+
+Comparison:
+Agreement
+
+
+OVERALL COMPARISON
+
+All three test messages produced agreement between Gemini and the rule-based baseline for the main issue category, urgency level and recommended team.
+
+The rule-based method was highly predictable because its outputs were based on fixed keywords. This can be useful where the organisation requires strict and explainable classification rules.
+
+Gemini offered an important advantage because it interpreted the meaning and context of the messages rather than only matching specific words. It also generated escalation reasons and short summaries.
+
+However, Gemini may produce different classifications when messages are ambiguous or when context is limited. It also carries risks including hallucination, inconsistent severity assessment and inappropriate escalation.
+
+Based on the experiment, the LLM approach would be suitable for limited pilot use with human oversight. High-risk, uncertain or sensitive messages should be reviewed by a responsible employee before operational action is taken.
