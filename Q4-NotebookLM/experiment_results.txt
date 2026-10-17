@@ -1,0 +1,105 @@
+Q4 – NOTEBOOKLM EXPERIMENT RESULTS
+
+Experiment:
+
+Using NotebookLM to analyse sustainability documents for an academic ESG briefing.
+
+Sources:
+
+Microsoft 2024 Environmental Sustainability Report
+Unilever Sustainability Statement
+
+
+EXPERIMENT 1 – SOURCE INGESTION
+
+Both sustainability documents were added to the same NotebookLM notebook.
+
+Result:
+
+NotebookLM successfully organised the documents as sources within one workspace. This provided a single environment for asking questions and comparing information from both organisations.
+
+Usefulness:
+
+This feature was useful because students or researchers can analyse several long documents without constantly switching between separate PDF files.
+
+
+EXPERIMENT 2 – ESG SUMMARY
+
+Task:
+
+NotebookLM was asked to summarise the main sustainability priorities under environmental, social and governance themes.
+
+Result:
+
+The generated response provided a structured overview of the main sustainability topics discussed across the uploaded sources.
+
+The response was easier to review than reading both complete sustainability documents separately and provided source references that supported verification.
+
+
+EXPERIMENT 3 – THEMATIC ANALYSIS
+
+Task:
+
+NotebookLM was asked to identify five important sustainability themes across the two documents.
+
+Result:
+
+The tool identified recurring environmental and sustainability themes and linked them to the relevant organisations.
+
+Themes included areas such as climate action, environmental resource management, waste or circularity and organisational sustainability commitments.
+
+Usefulness:
+
+Thematic analysis was useful for quickly identifying common areas of ESG concern across large reports.
+
+
+EXPERIMENT 4 – MICROSOFT AND UNILEVER COMPARISON
+
+Task:
+
+NotebookLM was asked to identify similarities and differences between Microsoft and Unilever's sustainability approaches.
+
+Result:
+
+The tool generated a structured comparison that distinguished shared ESG priorities from organisation-specific approaches.
+
+The comparison demonstrated that NotebookLM can synthesise information across more than one source rather than simply summarising each document separately.
+
+
+EXPERIMENT 5 – ACADEMIC BRIEFING
+
+Task:
+
+NotebookLM was asked to prepare a short evidence-based academic briefing.
+
+Result:
+
+The output organised information into a concise format that could support university study, research preparation or professional briefing activities.
+
+Usefulness:
+
+This reduced the time required to convert long sustainability documents into a readable academic overview.
+
+
+EXPERIMENT 6 – SOURCE-GROUNDED QUESTION ANSWERING
+
+Task:
+
+NotebookLM was asked about Microsoft and Unilever's climate and carbon commitments.
+
+Result:
+
+The generated response remained connected to the uploaded documents and provided source references that could be checked against the reports.
+
+Usefulness:
+
+Citation support increased transparency because users could return to the source material rather than relying only on the AI-generated answer.
+
+
+OVERALL RESULT
+
+NotebookLM performed well as a supporting research tool for summarisation, thematic analysis, comparison and source-grounded question answering.
+
+Its strongest advantage was the ability to work from a controlled collection of uploaded sources.
+
+However, the generated information should not automatically be treated as fully accurate. Important targets, definitions and contextual details should still be checked against the original documents.

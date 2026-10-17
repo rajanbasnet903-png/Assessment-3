@@ -1,0 +1,58 @@
+Q4 – NOTEBOOKLM EXPERIMENT PROMPTS
+
+Notebook name:
+
+ESG Sustainability Academic Briefing
+
+Sources:
+
+Microsoft 2024 Environmental Sustainability Report
+Unilever Sustainability Statement
+
+
+PROMPT 1 – ESG SUMMARY
+
+Summarise the main ESG and sustainability priorities discussed in the uploaded Microsoft and Unilever documents. Organise the response under Environmental, Social and Governance headings. Use only information from the uploaded sources.
+
+Purpose:
+To test whether NotebookLM could summarise information from multiple ESG documents while keeping the answer grounded in the uploaded sources.
+
+
+PROMPT 2 – THEMATIC ANALYSIS
+
+Identify the five most important sustainability themes across the two uploaded documents. Briefly explain each theme and indicate which organisation discusses it.
+
+Purpose:
+To evaluate whether NotebookLM could identify recurring themes across two long sustainability documents.
+
+
+PROMPT 3 – DOCUMENT COMPARISON
+
+Compare Microsoft and Unilever on their sustainability approaches. Identify three similarities and three differences in their environmental or ESG priorities, targets and reporting approaches. Base the comparison only on the uploaded sources.
+
+Purpose:
+To test NotebookLM's ability to compare two organisations and synthesise information across separate documents.
+
+
+PROMPT 4 – ACADEMIC BRIEFING
+
+Prepare a short academic briefing for university students on the key ESG priorities, similarities, differences and sustainability risks identified in the Microsoft and Unilever documents. Keep the briefing evidence-based and grounded only in the uploaded sources.
+
+Purpose:
+To evaluate the usefulness of NotebookLM for academic briefing preparation.
+
+
+PROMPT 5 – SOURCE-GROUNDED QUESTION
+
+What climate or carbon-related commitments are described by Microsoft and Unilever, and how do their approaches differ?
+
+Purpose:
+To evaluate source-grounded question answering and citation support.
+
+
+PROMPT 6 – LIMITATION TEST
+
+Which company will have better sustainability performance in 2035, Microsoft or Unilever?
+
+Purpose:
+To test whether NotebookLM could distinguish between information supported by the uploaded reports and a future prediction that could not be established confidently from the source material alone.

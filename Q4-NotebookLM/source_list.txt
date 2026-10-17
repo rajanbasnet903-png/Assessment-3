@@ -1,0 +1,71 @@
+Q4 – NOTEBOOKLM SOURCE LIST
+
+Experiment title:
+
+Evaluation of NotebookLM for an ESG Sustainability Academic Briefing
+
+
+SOURCE 1
+
+Title:
+Microsoft 2024 Environmental Sustainability Report
+
+Organisation:
+Microsoft
+
+Year:
+2024
+
+Document type:
+Corporate environmental sustainability report
+
+Main topics:
+Carbon emissions
+Climate action
+Water
+Waste
+Circular economy
+Ecosystems
+Sustainable technology
+Environmental targets and progress
+
+Official PDF:
+https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Microsoft-2024-Environmental-Sustainability-Report.pdf
+
+
+SOURCE 2
+
+Title:
+Unilever Sustainability Statement
+
+Organisation:
+Unilever
+
+Year:
+2025
+
+Document type:
+Corporate sustainability statement
+
+Main topics:
+Climate
+Nature
+Water
+Circular economy
+Responsible sourcing
+Workforce
+Social sustainability
+Corporate governance
+ESG reporting
+
+Official PDF:
+https://www.unilever.com/files/unilever-sustainability-statement.pdf
+
+
+EXPERIMENT PURPOSE
+
+The two documents were selected because they represent sustainability reporting from organisations operating in different industries.
+
+Microsoft represents the technology sector, while Unilever represents the consumer goods sector.
+
+Using both sources allowed NotebookLM to be tested for summarisation, thematic analysis, comparison and source-grounded academic question answering.
